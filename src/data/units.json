@@ -1,0 +1,486 @@
+{
+  "Thermal-EX": {
+    "Star": 1,
+    "Tags": ["Robot", "Melee", "Nuker", "Specialist"]
+  },
+  "Castle-3": {
+    "Star": 1,
+    "Tags": ["Robot", "Melee", "Support", "Guard"]
+  },
+  "Justice Knight": {
+    "Star": 1,
+    "Tags": ["Robot", "Ranged", "Support", "Sniper"]
+  },
+  "Lancet-2": {
+    "Star": 1,
+    "Tags": ["Robot", "Ranged", "Healing", "Medic"]
+  },
+  "Noire Corne": {
+    "Star": 2,
+    "Tags": ["Melee", "Stater", "Defender"]
+  },
+  "Yato": {
+    "Star": 2,
+    "Tags": ["Melee", "Stater", "Vangaurd"]
+  },
+  "Rangers": {
+    "Star": 2,
+    "Tags": ["Ranged", "Starter", "Sniper"]
+  },
+  "12F": {
+    "Star": 2,
+    "Tags": ["Ranged", "Starter", "Caster"]
+  },
+  "Durin": {
+    "Star": 2,
+    "Tags": ["Ranged", "Starter", "Caster"]
+  },
+  "Spot": {
+    "Star": 3,
+    "Tags": ["Melee", "Defense", "Healing", "Defender"]
+  },
+  "Popukar": {
+    "Star": 3,
+    "Tags": ["Melee", "AoE", "Survival", "Guard"]
+  },
+  "Midnight": {
+    "Star": 3,
+    "Tags": ["Melee", "DPS", "Guard"]
+  },
+  "Beagle": {
+    "Star": 3,
+    "Tags": ["Melee", "Defense", "Defender"]
+  },
+  "Melantha": {
+    "Star": 3,
+    "Tags": ["Melee", "DPS", "Survival", "Guard"]
+  },
+  "Plume": {
+    "Star": 3,
+    "Tags": ["Melee", "DPS", "DP-Recovery", "Vangaurd"]
+  },
+  "Vanilla": {
+    "Star": 3,
+    "Tags": ["Melee", "DP-Recovery", "Vangaurd"]
+  },
+  "Fang": {
+    "Star": 3,
+    "Tags": ["Melee", "DP-Recovery", "Vangaurd"]
+  },
+  "Catapult": {
+    "Star": 3,
+    "Tags": ["Ranged", "AoE", "Sniper"]
+  },
+  "Orchid": {
+    "Star": 3,
+    "Tags": ["Ranged", "Slow", "Supporter"]
+  },
+  "Adnachiel": {
+    "Star": 3,
+    "Tags": ["Ranged", "DPS", "Sniper"]
+  },
+  "Kroos": {
+    "Star": 3,
+    "Tags": ["Ranged", "DPS", "Sniper"]
+  },
+  "Steward": {
+    "Star": 3,
+    "Tags": ["Ranged", "DPS", "Caster"]
+  },
+  "Lava": {
+    "Star": 3,
+    "Tags": ["Ranged", "AoE", "Caster"]
+  },
+  "Ansel": {
+    "Star": 3,
+    "Tags": ["Ranged", "Healing", "Medic"]
+  },
+  "Hibiscus": {
+    "Star": 3,
+    "Tags": ["Ranged", "Healing", "Medic"]
+  },
+  "Cutter": {
+    "Star": 4,
+    "Tags": ["Melee", "Nuker", "DPS", "Guard"]
+  },
+  "Utage": {
+    "Star": 4,
+    "Tags": ["Melee", "DPS", "Survival", "Guard"]
+  },
+  "Myrtle": {
+    "Star": 4,
+    "Tags": ["Melee", "DP-Recovery", "Healing", "Vangaurd"]
+  },
+  "Matterhorn": {
+    "Star": 4,
+    "Tags": ["Melee", "Defense", "Defender"]
+  },
+  "Gummy": {
+    "Star": 4,
+    "Tags": ["Melee", "Defense", "Healing", "Defender"]
+  },
+  "Cuora": {
+    "Star": 4,
+    "Tags": ["Melee", "Defense", "Defender"]
+  },
+  "Matoimaru": {
+    "Star": 4,
+    "Tags": ["Melee", "Survival", "DPS", "Guard"]
+  },
+  "Frostleaf": {
+    "Star": 4,
+    "Tags": ["Melee", "Slow", "DPS", "Guard"]
+  },
+  "Mousse": {
+    "Star": 4,
+    "Tags": ["Melee", "DPS", "Guard"]
+  },
+  "Beehunter": {
+    "Star": 4,
+    "Tags": ["Melee", "DPS", "Guard"]
+  },
+  "Estelle": {
+    "Star": 4,
+    "Tags": ["Melee", "AoE", "Survival" , "Guard"]
+  },
+  "Dobermann": {
+    "Star": 4,
+    "Tags": ["Melee", "DPS", "Support", "Guard"]
+  },
+  "Shaw": {
+    "Star": 4,
+    "Tags": ["Melee", "Shift", "Specialist"]
+  },
+  "Rope": {
+    "Star": 4,
+    "Tags": ["Melee", "Shift", "Specialist"]
+  },
+  "Gravel": {
+    "Star": 4,
+    "Tags": ["Melee", "Fast-Redeploy", "Defense", "Specialist"]
+  },
+  "Vigna": {
+    "Star": 4,
+    "Tags": ["Melee", "DPS", "DP-Recovery", "Vangaurd"]
+  },
+  "Scavenger": {
+    "Star": 4,
+    "Tags": ["Melee", "DP-Recovery", "DPS", "Vangaurd"]
+  },
+  "Click": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Crowd Control", "Caster"]
+  },
+  "Podenco": {
+    "Star": 4,
+    "Tags": ["Ranged", "Slow", "Healing", "Supporter"]
+  },
+  "Purestream": {
+    "Star": 4,
+    "Tags": ["Ranged", "Healing", "Support", "Medic"]
+  },
+  "Ambriel": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Slow", "Sniper"]
+  },
+  "May": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Slow", "Sniper"]
+  },
+  "Vermeil": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Sniper"]
+  },
+  "Sussurro": {
+    "Star": 4,
+    "Tags": ["Ranged", "Healing", "Medic"]
+  },
+  "Greyy": {
+    "Star": 4,
+    "Tags": ["Ranged", "AoE", "Slow", "Caster"]
+  },
+  "Earthspirit": {
+    "Star": 4,
+    "Tags": ["Ranged", "Slow", "Supporter"]
+  },
+  "Jessica": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Survival", "Sniper"]
+  },
+  "Meteor": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Debuff", "Sniper"]
+  },
+  "ShiraYuki": {
+    "Star": 4,
+    "Tags": ["Ranged", "AoE", "Slow", "Sniper"]
+  },
+  "Gitano": {
+    "Star": 4,
+    "Tags": ["Ranged", "AoE", "Caster"]
+  },
+  "Haze": {
+    "Star": 4,
+    "Tags": ["Ranged", "DPS", "Debuff", "Caster"]
+  },
+  "Perfumer": {
+    "Star": 4,
+    "Tags": ["Ranged", "Healing", "Medic"]
+  },
+  "Myrrh": {
+    "Star": 4,
+    "Tags": ["Ranged", "Healing", "Medic"]
+  },
+  "Ayerscape": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DPS", "AoE", "Guard"]
+  },
+  "Asbestos": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Defense", "DPS", "Defender"]
+  },
+  "Elysium": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vangaurd"]
+  },
+  "Hung": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Defense", "Healing", "Defender"]
+  },
+  "Broca": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "AoE", "Survival", "Guard"]
+  },
+  "Reed": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+  },
+  "Waai Fu": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Fast-Redeploy", "Debuff", "Specialist"]
+  },
+  "Astesia": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DPS", "Defense", "Guard"]
+  },
+  "Swire": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DPS", "Support", "Guard"]
+  },
+  "Croissant": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Defense", "Shift", "Defender"]
+  },
+  "Vulcan": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Survival", "Defense", "DPS", "Defender"]
+  },
+  "Liskarm": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Defense", "DPS", "Defender"]
+  },
+  "Nearl": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Defense", "Healing", "Defender"]
+  },
+  "Indra": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DPS", "Survival", "Guard"]
+  },
+  "Specter": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "AoE", "Survival", "Guard"]
+  },
+  "FEater": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Shift", "Slow", "Specialist"]
+  },
+  "Cliffheart": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Shift", "DPS", "Specialist"]
+  },
+  "Manticore": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DPS", "Survival", "Specialist"]
+  },
+  "Projekt Red": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "Fast-Redeploy", "Crowd Control", "Specialist"]
+  },
+  "Zima": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vangaurd"]
+  },
+  "Texas": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Crowd Control", "Vangaurd"]
+  },
+  "Leonhardt": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "AoE", "Nuker", "Caster"]
+  },
+  "Tsukinogi": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Support", "Survival", "Supporter"]
+  },
+  "Shamare": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Debuff", "Supporter"]
+  },
+  "Sesa": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "AoE", "Defender", "Sniper"]
+  },
+  "Leizi": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Caster"]
+  },
+  "GreyThroat": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Executor": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "AoE", "Sniper"]
+  },
+  "Glaucus": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Slow", "Crowd Control", "Supporter"]
+  },
+  "Mayer": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Summon", "Crowd Control", "Supporter"]
+  },
+  "Istina": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Slow", "DPS", "Supporter"]
+  },
+  "Pramanix": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Debuff", "Supporter"]
+  },
+  "Platinum": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Meteorite": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "AoE", "Debuff", "Sniper"]
+  },
+  "Firewatch": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Nuker", "Sniper"]
+  },
+  "Blue Poison": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Provence": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Nightmare": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "DPS", "Healing", "Slow", "Caster"]
+  },
+  "Warfarin": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Healing", "Support", "Medic"]
+  },
+  "Silence": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Healing", "Medic"]
+  },
+  "Ptilopsis": {
+    "Star": 5,
+    "Tags": ["Senior Operator", "Ranged", "Healing", "Support", "Medic"]
+  },
+  "Weedy": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "Shift", "DPS", "Crowd Control", "Specialist"]
+  },
+  "Phantom": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "Fast-Redeploy", "Crowd Control", "DP-Recovery", "Specialist"]
+  },
+  "Bagpipe": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+  },
+  "Blaze": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DPS", "Survival", "Guard"]
+  },
+  "Hellagur": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DPS", "Survival", "Guard"]
+  },
+  "Skadi": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DPS", "Survival", "Guard"]
+  },
+  "Saria": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "Defense", "Healing", "Support", "Defender"]
+  },
+  "Hoshiguma": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "Defense", "DPS", "Defender"]
+  },
+  "SilverAsh": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DPS", "Support", "Guard"]
+  },
+  "Siege": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+  },
+  "Ch'en": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Melee", "Nuker", "DPS", "Guard"]
+  },
+  "Suzuran": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "Slow", "Support", "DPS", "Supporter"]
+  },
+  "Poca": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "DPS", "Crowd Control", "Sniper"]
+  },
+  "Ceobe": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "DPS", "Crowd Control", "Caster"]
+  },
+  "Aak": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "Support", "DPS", "Specialist"]
+  },
+  "Mostima": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "AoE", "Support", "Crowd Control", "Caster"]
+  },
+  "Magallan": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "Support", "Slow", "DPS", "Supporter"]
+  },
+  "Schwarz": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Exusiai": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "DPS", "Sniper"]
+  },
+  "Ifrit": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "AoE", "Debuff", "Caster"]
+  },
+  "Nightingale": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "Healing", "Support", "Medic"]
+  },
+  "Shining": {
+    "Star": 6,
+    "Tags": ["Top Operator", "Ranged", "Healing", "Support", "Medic"]
+  }
+}
