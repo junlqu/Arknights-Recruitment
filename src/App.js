@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import units from "./data/units.json";
 
-function App() {
+import Main from "./components/main";
+
+function getCount() {
+  let counts = [0, 0, 0, 0, 0, 0];
+  Object.keys(units).forEach(function(key){
+    counts[units[key].Star - 1]++;
+  })
+  return counts;
+}
+
+function rows(star, count) {
+  return(<p>{star} Star Count: {count}</p>)
+}
+
+const App = () => {
+  let count = getCount();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {count.map((c, i) => rows(i + 1, c))}
+      <Main />
     </div>
   );
 }
