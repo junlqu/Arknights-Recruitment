@@ -15,7 +15,7 @@
     "Star": 1,
     "Tags": ["Robot", "Ranged", "Healing", "Medic"]
   },
-  "Noire Corne": {
+  "Noir Corne": {
     "Star": 2,
     "Tags": ["Melee", "Stater", "Defender"]
   },
@@ -443,7 +443,7 @@
     "Star": 6,
     "Tags": ["Top Operator", "Ranged", "Slow", "Support", "DPS", "Supporter"]
   },
-  "Poca": {
+  "Rosa": {
     "Star": 6,
     "Tags": ["Top Operator", "Ranged", "DPS", "Crowd Control", "Sniper"]
   },
