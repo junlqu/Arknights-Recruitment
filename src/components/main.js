@@ -19,10 +19,10 @@ const Main = () => {
 
   return (
     <>
-      <button onClick={toggleSelect}>
+      <button onClick={() => toggleSelect()}>
         Click me
       </button>
-      <button onClick={random}>
+      <button onClick={() => random()}>
         Random image
       </button>
       {selected === 0 ? 
