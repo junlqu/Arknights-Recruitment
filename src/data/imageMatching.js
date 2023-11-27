@@ -1,3 +1,5 @@
+/* eslint no-use-before-define: 0 */  // --> OFF
+
 import ThermalEX from "./images/Thermal-EX.png";
 import Castle3 from "./images/Castle-3.png";
 import JusticeKnight from "./images/JusticeKnight.png";
