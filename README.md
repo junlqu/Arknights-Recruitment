@@ -24,7 +24,7 @@ If you do not want to use the active website, but have it open locally, follow t
 ```
 npm install
 ```
-6. Run the following command to open the local window in your default browser.
+5. Run the following command to open the local window in your default browser.
 ```
 npm start
 ```
