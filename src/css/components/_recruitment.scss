@@ -1,0 +1,86 @@
+#recruitment {
+  min-width: 200px;
+  max-width: 1080px;
+  width: calc(100vw - 16px);
+  display: block;
+
+  button {
+    border: solid 2px _c(border);
+  }
+
+  .reset {
+    background-color: _c(caution-alt);
+    color: _c(caution);
+    font-weight: 800;
+    font-size: 20px;
+    transition: _t(fast);
+
+    &:hover {
+      color: _c(text);
+      background-color: _c(caution);
+    }
+  }
+
+  .sections {
+    position: relative;
+    background-color: _c(background-alt);
+    border: solid 2px _c(border);
+    
+    h2 {
+      margin: auto 5px;
+    }
+
+    .categories {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      height: 100%;
+      width: 90px;
+      border-right: solid 1px _c(border-alt);
+    }
+
+    .contents {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      gap: 5px;
+      margin-left: 90px;
+      padding: 5px;
+
+      button {
+        height: 28px;
+        width: fit-content;
+        font-weight: 500;
+        border-radius: 14px;
+        transition: _t(fast);
+      }
+
+      .select {
+        background-color: _c(button);
+        border-color: _c(button-hover);
+
+        &:hover {
+          color: _c(subtitle);
+          background-color: _c(button-hover);
+          border-color: _c(button);
+        }
+      }
+
+      .unselect {
+        background-color: _c(button-clicked);
+        border-color: _c(button-clicked-hover);
+
+        &:hover {
+          color: _c(button);
+          background-color: _c(button-clicked-hover);
+          border-color: _c(button-clicked);
+        }
+      }
+    }
+  }
+
+  .reset {
+    max-width: 1080px;
+    width: 100%;
+  }
+}

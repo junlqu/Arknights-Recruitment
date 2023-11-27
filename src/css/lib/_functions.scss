@@ -1,0 +1,13 @@
+@use "sass:map";
+
+@function _t($key) {
+  @return map.get($duration, $key);
+}
+
+@function _s($key) {
+  @return map.get($image, $key);
+}
+
+@function _c($key) {
+  @return map.get($theme, $key);
+}

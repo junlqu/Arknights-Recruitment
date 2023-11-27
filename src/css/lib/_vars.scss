@@ -1,0 +1,34 @@
+$duration: (
+  fast: 0.25s,
+  medium: 0.5s,
+  slow: 1s
+);
+
+$image: (
+  small: 32px,
+  medium: 56px,
+  large: 80px
+);
+
+$theme: (
+  background: rgb(138, 138, 138),
+  background-alt: rgb(95, 95, 95),
+  border: rgb(20, 20, 20),
+  border-alt: rgb(104, 136, 146),
+  text: rgb(22, 22, 22),
+  title: rgb(0, 0, 44),
+  subtitle: rgb(0 0 0),
+  link: rgb(55, 97, 136),
+  button: rgb(221, 221, 221),
+  button-hover: rgb(104, 136, 146),
+  button-clicked: rgb(33, 192, 231),
+  button-clicked-hover: rgb(0, 102, 143),
+  star1: rgb(159 159 159),
+  star2: rgb(220 229 55),
+  star3: rgb(0 178 246),
+  star4: rgb(219 177 219),
+  star5: rgb(255 174 0),
+  star6: rgb(255 102 0),
+  caution: rgb(94, 0, 0),
+  caution-alt: rgb(170, 88, 88),
+);
