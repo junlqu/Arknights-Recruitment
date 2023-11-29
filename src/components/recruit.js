@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+
+import { SizeContextReadOnly } from "../contexts/Context";
 
 import tags from "../data/tags";
 import imageMatch from "../data/imageMatching";
@@ -8,7 +10,7 @@ import Filter from "../functions/filter";
 
 const Recruit = () => {
   const [selected, setSelected] = useState([]);
-  const [size, setSize] = useState("xs");
+  const size = useContext(SizeContextReadOnly);
   
   // Adds or removes a tag from the selected list
   function changeSelected(tag) {
