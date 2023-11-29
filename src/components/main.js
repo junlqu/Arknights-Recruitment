@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import Recruit from "./Recruit";
 import Upload from "./Upload";
 
@@ -11,6 +12,7 @@ const Main = () => {
 
   return (
     <>
+      
       {selected === 0 ? 
       <Recruit /> : 
       <Upload />}
