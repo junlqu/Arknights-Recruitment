@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Recruit from "./recruit";
-import Upload from "./upload";
+import Recruit from "./Recruit";
+import Upload from "./Upload";
 
 import imageMatching from "../data/imageMatching";
 
