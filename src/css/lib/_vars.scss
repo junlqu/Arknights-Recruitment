@@ -5,9 +5,20 @@ $duration: (
 );
 
 $image: (
-  small: 32px,
-  medium: 56px,
-  large: 80px
+  xxsmall: 32px,
+  xsmall: 48px,
+  small: 64px,
+  medium: 80px,
+  large: 96px,
+  xlarge: 112px,
+  xxlarge: 128px,
+  font-xxs: 8px,
+  font-xs: 10px,
+  font-sm: 12px,
+  font-md: 14px,
+  font-lg: 16px,
+  font-xl: 18px,
+  font-xxl: 20px,
 );
 
 $theme: (
@@ -17,7 +28,7 @@ $theme: (
   border-alt: rgb(104, 136, 146),
   text: rgb(22, 22, 22),
   title: rgb(0, 0, 44),
-  subtitle: rgb(0 0 0),
+  subtitle: rgb(12, 20, 75),
   link: rgb(55, 97, 136),
   button: rgb(221, 221, 221),
   button-hover: rgb(104, 136, 146),
@@ -29,6 +40,12 @@ $theme: (
   star4: rgb(219 177 219),
   star5: rgb(255 174 0),
   star6: rgb(255 102 0),
+  star1-alt: rgb(88, 88, 88),
+  star2-alt: rgb(123, 128, 40),
+  star3-alt: rgb(3, 89, 122),
+  star4-alt: rgb(92, 72, 92),
+  star5-alt: rgb(116, 81, 7),
+  star6-alt: rgb(114, 51, 10),
   caution: rgb(94, 0, 0),
   caution-alt: rgb(170, 88, 88),
 );
