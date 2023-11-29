@@ -9,7 +9,7 @@
   },
   "Bagpipe": {
     "Star": 6,
-    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vanguard"]
   },
   "Blaze": {
     "Star": 6,
@@ -37,7 +37,7 @@
   },
   "Siege": {
     "Star": 6,
-    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+    "Tags": ["Top Operator", "Melee", "DP-Recovery", "DPS", "Vanguard"]
   },
   "Ch'en": {
     "Star": 6,
@@ -97,7 +97,7 @@
   },
   "Elysium": {
     "Star": 5,
-    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vangaurd"]
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vanguard"]
   },
   "Hung": {
     "Star": 5,
@@ -109,7 +109,7 @@
   },
   "Reed": {
     "Star": 5,
-    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "DPS", "Vangaurd"]
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "DPS", "Vanguard"]
   },
   "Waai Fu": {
     "Star": 5,
@@ -165,11 +165,11 @@
   },
   "Zima": {
     "Star": 5,
-    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vangaurd"]
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Support", "Vanguard"]
   },
   "Texas": {
     "Star": 5,
-    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Crowd Control", "Vangaurd"]
+    "Tags": ["Senior Operator", "Melee", "DP-Recovery", "Crowd Control", "Vanguard"]
   },
   "Leonhardt": {
     "Star": 5,
@@ -261,7 +261,7 @@
   },
   "Myrtle": {
     "Star": 4,
-    "Tags": ["Melee", "DP-Recovery", "Healing", "Vangaurd"]
+    "Tags": ["Melee", "DP-Recovery", "Healing", "Vanguard"]
   },
   "Matterhorn": {
     "Star": 4,
@@ -313,11 +313,11 @@
   },
   "Vigna": {
     "Star": 4,
-    "Tags": ["Melee", "DPS", "DP-Recovery", "Vangaurd"]
+    "Tags": ["Melee", "DPS", "DP-Recovery", "Vanguard"]
   },
   "Scavenger": {
     "Star": 4,
-    "Tags": ["Melee", "DP-Recovery", "DPS", "Vangaurd"]
+    "Tags": ["Melee", "DP-Recovery", "DPS", "Vanguard"]
   },
   "Click": {
     "Star": 4,
@@ -405,15 +405,15 @@
   },
   "Plume": {
     "Star": 3,
-    "Tags": ["Melee", "DPS", "DP-Recovery", "Vangaurd"]
+    "Tags": ["Melee", "DPS", "DP-Recovery", "Vanguard"]
   },
   "Vanilla": {
     "Star": 3,
-    "Tags": ["Melee", "DP-Recovery", "Vangaurd"]
+    "Tags": ["Melee", "DP-Recovery", "Vanguard"]
   },
   "Fang": {
     "Star": 3,
-    "Tags": ["Melee", "DP-Recovery", "Vangaurd"]
+    "Tags": ["Melee", "DP-Recovery", "Vanguard"]
   },
   "Catapult": {
     "Star": 3,
@@ -453,7 +453,7 @@
   },
   "Yato": {
     "Star": 2,
-    "Tags": ["Melee", "Stater", "Vangaurd"]
+    "Tags": ["Melee", "Stater", "Vanguard"]
   },
   "Rangers": {
     "Star": 2,
