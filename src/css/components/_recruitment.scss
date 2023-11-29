@@ -1,8 +1,22 @@
+#recruitment-wrapper {
+  display: block;
+  width: 100%;
+
+  h1 {
+    color: _c(title);
+  }
+
+  .title {
+    margin: 10px auto;
+    text-align: center;
+  }
+}
+
 #recruitment {
   min-width: 200px;
   max-width: 1080px;
   width: calc(100vw - 16px);
-  display: block;
+  margin: auto;
 
   button {
     border: solid 2px _c(border);
@@ -25,9 +39,11 @@
     position: relative;
     background-color: _c(background-alt);
     border: solid 2px _c(border);
+    border-bottom: 0;
     
     h2 {
       margin: auto 5px;
+      color: _c(button);
     }
 
     .categories {
@@ -36,7 +52,7 @@
       position: absolute;
       height: 100%;
       width: 90px;
-      border-right: solid 1px _c(border-alt);
+      background-color:_c(border-alt);
     }
 
     .contents {
@@ -83,4 +99,146 @@
     max-width: 1080px;
     width: 100%;
   }
+
+  .results {
+    width: 100%;
+    margin-top: 16px;
+
+    .parsed-tags {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      margin: 0;
+      background-color: _c(border-alt);
+      border-bottom: solid 1px _c(border-alt);
+      text-align: center;
+
+      .parsed-tag {
+        width: fit-content;
+        margin: 0;
+        padding: 1px 6px;
+        background-color: _c(button-clicked);
+        border: solid 2px _c(button-clicked-hover);
+        border-radius: 14px;
+      }
+    }
+
+    .operator-tags {
+      background-color: _c(background-alt);
+      border: solid 2px _c(border);
+      margin: 1px;
+    }
+
+    .operator-set {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      
+      .operator-card {
+        margin: 5px 0;
+        border-radius: 10%;
+
+        .operator-name {
+          margin: 3px;
+          padding: 0;
+          font-weight: 500;
+          text-align: center;
+          color: _c(text);
+        }
+
+        .operator-image {
+          display: block;
+          margin: auto;
+          padding-top: 5px;
+        }
+
+        .image-xs {
+          max-width: _s(xsmall);
+          max-height: _s(xsmall);
+        }
+        
+        .image-sm {
+          max-width: _s(small);
+          max-height: _s(small);
+        }
+
+        .image-md {
+          max-width: _s(medium);
+          max-height: _s(medium);
+        }
+
+        .image-lg {
+          max-width: _s(large);
+          max-height: _s(large);
+        }
+
+        .image-xl {
+          max-width: _s(xlarge);
+          max-height: _s(xlarge);
+        }
+      }
+
+      .xs {
+        width: _s(small);
+        height: calc(_s(small) + 10px);
+        font-size: _s(font-xs);
+      }
+
+      .sm {
+        width: _s(medium);
+        height: calc(_s(medium) + 10px);
+        font-size: _s(font-sm);
+      }
+
+      .md {
+        width: _s(large);
+        height: calc(_s(large) + 10px);
+        font-size: _s(font-md);
+      }
+
+      .lg {
+        width: _s(xlarge);
+        height: calc(_s(xlarge) + 10px);
+        font-size: _s(font-lg);
+      }
+
+      .xl {
+        width: _s(xxlarge);
+        height: calc(_s(xxlarge) + 10px);
+        font-size: _s(font-xl);
+      }
+    }
+  }
+}
+
+.star1 {
+  background-color: _c(star1);
+  border: solid 2px _c(star1-alt);
+}
+
+.star2 {
+  background-color: _c(star2);
+  border: solid 2px _c(star2-alt);
+}
+
+.star3 {
+  background-color: _c(star3);
+  border: solid 2px _c(star3-alt);
+}
+
+.star4 {
+  background-color: _c(star4);
+  border: solid 2px _c(star4-alt);
+}
+
+.star5 {
+  background-color: _c(star5);
+  border: solid 2px _c(star5-alt);
+}
+
+.star6 {
+  background-color: _c(star6);
+  border: solid 2px _c(star6-alt);
 }
