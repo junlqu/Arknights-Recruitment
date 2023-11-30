@@ -49,6 +49,17 @@
       width: 200px;
       height: calc(100% - 87px);
       margin: 10px auto 20px auto ;
+
+      .choice {
+        padding: 5px;
+        margin-bottom: 15px;
+        background-color: _c(background-alt);
+        border-radius: 10px;
+
+        h4 {
+          margin-top: 0;
+        }
+      }
       
       .options {
         display: flex;
