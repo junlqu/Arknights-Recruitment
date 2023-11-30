@@ -5,6 +5,7 @@ const defaultSettings = {
   "init": "true",
   "size": "sm",
   "threePlus": true,
+  "maxTags": 3,
 }
 
 // Function to initiate default setting values
@@ -22,9 +23,10 @@ const SetSettings = () => {
     setStore(setting, defaultSettings[setting]);
   }
 
-  setDefault("init")
+  setDefault("init");
   setDefault("size");
-  setDefault("threePlus")
+  setDefault("threePlus");
+  setDefault("maxTags");
 }
 
 export default SetSettings;

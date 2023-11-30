@@ -1,17 +1,18 @@
 import { useContext, useState } from "react";
 
-import { SizeContextReadOnly, ThreePlusContextReadOnly } from "../contexts/Context";
+import { SizeContextReadOnly, ThreePlusContextReadOnly, MaxTagsContextReadOnly } from "../contexts/Context";
 
 import tags from "../data/tags";
 import imageMatch from "../data/imageMatching";
 import units from "../data/units.json";
 
-import Filter from "../functions/filter";
+import Filter from "../functions/Filter";
 
 const Recruit = () => {
   const [selected, setSelected] = useState([]);
   const size = useContext(SizeContextReadOnly);
   const threePlus = useContext(ThreePlusContextReadOnly);
+  const maxTags = useContext(MaxTagsContextReadOnly);
   
   // Adds or removes a tag from the selected list
   function changeSelected(tag) {
@@ -20,7 +21,7 @@ const Recruit = () => {
     if (index === -1) {
       temp = [...selected];
       temp = temp.concat([tag]);
-      if (selected.length === 3) {
+      if (selected.length === maxTags) {
         temp.shift();
       }
     }
