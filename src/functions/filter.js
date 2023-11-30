@@ -27,7 +27,7 @@ function removeEmptyArray(arr) {
 function sortList(arr) {
   let res = {}
   let queries = Object.keys(arr).map((tags) => [tags, arr[tags][0], arr[tags][1], arr[tags][2]]);
-  queries.sort((f, s) => f[3] - s[3] || f[2] - s[2] || f[1].length - s[1].length).reverse();
+  queries.sort((f, s) => f[3] - s[3] || f[2] - s[2] || s[1].length - f[1].length || s[0].length - f[0].length).reverse();
   queries.forEach((obj) => res[obj[0]] = [obj[1], obj[2], obj[3]]);
   return res;
 }
