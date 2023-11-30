@@ -22,7 +22,7 @@
     width: 240px;
     height: 400px;
     background-color: _c(background);
-    border: solid 2px _c(back);
+    border: solid 5px _c(background-alt);
 
     h1 {
       margin: 20px 0 0 20px;
@@ -31,7 +31,7 @@
 
     h4 {
       margin: 5px 0 5px 0;
-      color: _c(subtitle);
+      color: _c(text-alt);
     }
 
     .close {
