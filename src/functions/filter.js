@@ -1,11 +1,12 @@
 import units from "../data/units.json"
 
 // Returns the lists of operators
-function Filter(tags) {
+function Filter(tags, threePlus) {
   let res = {};
   let perms = getPerms(tags);
-  perms.map((t, i) => res[t] = getOps(t));
+  perms.map((t, i) => res[t] = getOps(t, threePlus));
   res = removeEmptyArray(res);
+  res = sortList(res);
   
   return res;
 }
@@ -14,9 +15,20 @@ function Filter(tags) {
 function removeEmptyArray(arr) {
   let res = {}
   Object.keys(arr).forEach((tags) => {
-    if (arr[tags] != null) res[tags] = arr[tags];
+    if (arr[tags] != null) {
+      res[tags] = [arr[tags][0], arr[tags][1], arr[tags][2]];
+    }
   })
 
+  return res;
+}
+
+// Sorts the array in descending maxStar, then minStar
+function sortList(arr) {
+  let res = {}
+  let queries = Object.keys(arr).map((tags) => [tags, arr[tags][0], arr[tags][1], arr[tags][2]]);
+  queries.sort((f, s) => f[3] - s[3] || f[2] - s[2]).reverse();
+  queries.forEach((obj) => res[obj[0]] = [obj[1], obj[2], obj[3]]);
   return res;
 }
 
@@ -51,7 +63,8 @@ function getXPerm(tags, x, res) {
 }
 
 // Returns keys of all 1-5 star units if no Top Operator tag is added, or key of all 6 stars if Top Operator tag is added
-function isTopOp(tags) {
+// If threePlus is true, then return only 3 star and above operators
+function parseOp(tags, threePlus) {
   let ops = Object.keys(units);
   let res = [];
   let count = 0;
@@ -64,8 +77,9 @@ function isTopOp(tags) {
     })
   }
   else {
+    let bot = threePlus ? 3 : 1;
     ops.forEach((k) => {
-      if (units[k].Star !== 6) {
+      if (units[k].Star !== 6 && units[k].Star >= bot) {
         res[count] = k;
         count++;
       }
@@ -75,8 +89,10 @@ function isTopOp(tags) {
 }
 
 // Returns the operators with all tags in the list
-function getOps(tags) {
-  let res = isTopOp(tags);
+function getOps(tags, threePlus) {
+  let res = parseOp(tags, threePlus);
+  let maxStar = 0;
+  let minStar = 10;
   tags.forEach((tag) => {
     let new_res = [];
     let count = 0;
@@ -88,8 +104,12 @@ function getOps(tags) {
     })
     res = new_res;
   })
+  res.forEach((op) => {
+    if (units[op].Star > maxStar) maxStar = units[op].Star;
+    if (units[op].Star < minStar) minStar = units[op].Star;
+  })
 
-  return res.length === 0 ? null : res;
+  return res.length === 0 ? null : [res, maxStar, minStar];
 }
 
 export default Filter;
