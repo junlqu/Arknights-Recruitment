@@ -22,7 +22,7 @@ const Settings = () => {
     if (window.localStorage.getItem("init") == null) SetSettings();
     else {
       setSize(window.localStorage.getItem("size"));
-      setThreePlus(Boolean(window.localStorage.getItem("threePlus")));
+      setThreePlus(window.localStorage.getItem("threePlus") === "true" ? true : false);
       setMaxTags(Number(window.localStorage.getItem("maxTags")));
     }
   });

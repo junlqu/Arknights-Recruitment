@@ -33,7 +33,7 @@ const Recruit = () => {
   }
 
   // Gets the operators from the tags
-  let ops = Filter(selected, threePlus === "true" ? true : false);
+  let ops = Filter(selected, threePlus);
   
   // Gets the set of tags as [Range], [Rarity], [Class], [Feature]
   let cat_names = ["Range", "Rarity", "Class", "Feature"];
