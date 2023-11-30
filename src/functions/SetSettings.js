@@ -4,6 +4,7 @@ import { useState } from "react";
 const defaultSettings = {
   "init": "true",
   "size": "sm",
+  "threePlus": true,
 }
 
 // Function to initiate default setting values
@@ -23,6 +24,7 @@ const SetSettings = () => {
 
   setDefault("init")
   setDefault("size");
+  setDefault("threePlus")
 }
 
 export default SetSettings;

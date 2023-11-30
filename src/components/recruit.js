@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 
-import { SizeContextReadOnly } from "../contexts/Context";
+import { SizeContextReadOnly, ThreePlusContextReadOnly } from "../contexts/Context";
 
 import tags from "../data/tags";
 import imageMatch from "../data/imageMatching";
@@ -11,6 +11,7 @@ import Filter from "../functions/filter";
 const Recruit = () => {
   const [selected, setSelected] = useState([]);
   const size = useContext(SizeContextReadOnly);
+  const threePlus = useContext(ThreePlusContextReadOnly);
   
   // Adds or removes a tag from the selected list
   function changeSelected(tag) {
@@ -31,7 +32,7 @@ const Recruit = () => {
   }
 
   // Gets the operators from the tags
-  let ops = Filter(selected);
+  let ops = Filter(selected, threePlus === "true" ? true : false);
   
   // Gets the set of tags as [Range], [Rarity], [Class], [Feature]
   let cat_names = ["Range", "Rarity", "Class", "Feature"];
@@ -74,7 +75,7 @@ const Recruit = () => {
               {tags.split(",").map((tag) => <p className="parsed-tag" key={tag}>{tag}</p>)}
             </div>
             <div className="operator-set">
-              {ops[tags].map((op) => 
+              {ops[tags][0].map((op) => 
                 <div className={"operator-card " + size + " star" + units[op].Star} key={op}>
                   <img className={"operator-image image-" + size} src={imageMatch[op]} alt={op} />
                   <p className="operator-name">{op}</p>

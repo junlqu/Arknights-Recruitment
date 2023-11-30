@@ -6,3 +6,10 @@ export const SizeContext = createContext({
 });
 
 export const SizeContextReadOnly = createContext("sm");
+
+export const ThreePlusContext = createContext({
+  threePlus: true,
+  setThreePlus: () => {}
+});
+
+export const ThreePlusContextReadOnly = createContext(true);

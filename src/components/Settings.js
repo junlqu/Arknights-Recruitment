@@ -1,13 +1,13 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
-import { SizeContext } from "../contexts/Context";
+import { SizeContext, ThreePlusContext } from "../contexts/Context";
 
 import SetSettings from "../functions/SetSettings";
 
 import close from "../data/images/close.svg";
 import gear from "../data/images/settings.svg";
 
-const sizes = [
+const states = [
   "selected",
   "unselected"
 ];
@@ -15,8 +15,17 @@ const sizes = [
 const Settings = () => {
   const [open, setOpen] = useState(false);
   const { size, setSize } = useContext(SizeContext);
+  const { threePlus, setThreePlus} = useContext(ThreePlusContext);
+  
+  useEffect(() => {
+    if (window.localStorage.getItem("init") == null) SetSettings();
+    else {
+      setSize(window.localStorage.getItem("size"));
+      setThreePlus(window.localStorage.getItem("threePlus"));
+    }
+  });
 
-  if (window.localStorage.getItem("init") == null) SetSettings();
+  
 
   function toggleSettings() {
     setOpen(!open);
@@ -24,7 +33,8 @@ const Settings = () => {
 
   function setStore(key, val) {
     window.localStorage.setItem(key, val);
-    setSize(val);
+    if (key === "size") setSize(val);
+    if (key === "threePlus") setThreePlus(val);
   }
 
   function mapping(state, val, classes) {
@@ -41,14 +51,21 @@ const Settings = () => {
             <h1>Settings</h1>
             <img className="close" src={close} alt="X" onClick={() => toggleSettings()} />
             <div className="choices">
-              <div className="set-size">
+              <div id="set-three-plus">
+                <h4>3+ Star Only:</h4>
+                <div className="options">
+                  <button className={"button " + mapping(threePlus, "true", states)} onClick={() => setStore("threePlus", true)} >On</button>
+                  <button className={"button " + mapping(threePlus, "false", states)} onClick={() => setStore("threePlus", false)} >Off</button>
+                </div>
+              </div>
+              <div id="set-size">
                 <h4>Image Size:</h4>
-                <div className="sizes">
-                  <button className={"size " + mapping(size, "xs", sizes)} onClick={() => setStore("size", "xs")}>xs</button>
-                  <button className={"size " + mapping(size, "sm", sizes)} onClick={() => setStore("size", "sm")}>sm</button>
-                  <button className={"size " + mapping(size, "md", sizes)} onClick={() => setStore("size", "md")}>md</button>
-                  <button className={"size " + mapping(size, "lg", sizes)} onClick={() => setStore("size", "lg")}>lg</button>
-                  <button className={"size " + mapping(size, "xl", sizes)} onClick={() => setStore("size", "xl")}>xl</button>
+                <div className="options">
+                  <button className={"button " + mapping(size, "xs", states)} onClick={() => setStore("size", "xs")}>xs</button>
+                  <button className={"button " + mapping(size, "sm", states)} onClick={() => setStore("size", "sm")}>sm</button>
+                  <button className={"button " + mapping(size, "md", states)} onClick={() => setStore("size", "md")}>md</button>
+                  <button className={"button " + mapping(size, "lg", states)} onClick={() => setStore("size", "lg")}>lg</button>
+                  <button className={"button " + mapping(size, "xl", states)} onClick={() => setStore("size", "xl")}>xl</button>
                 </div>
               </div>
             </div>
